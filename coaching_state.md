@@ -41,26 +41,26 @@ Last updated: 2026-02-24
 ## Storybank
 | ID | Title | Primary Skill | Earned Secret | Strength | Last Used |
 |----|-------|---------------|---------------|----------|-----------|
-| S001 | ECR Breakdown Redesign | Systems Thinking | Holding 6 different stakeholder worldviews simultaneously and finding the one solution that doesn't break any of them | 5 | — |
+| S001 | Global Earnings Health | Cross-Functional Leadership + Executive Influence | Ops had the right concern but the wrong currency — sentiment doesn't move COOs, marketplace efficiency risk does; the job was translating one into the other | 5 | — |
 | S002 | Driver Upfront Fares Launch | Execution + Risk Mitigation | What looks like a technical change is actually a trust problem — solve the trust problem, the legal and financial outcomes follow | 4 | — |
 | S003 | Surge UX Redesign | Creative Problem Solving | Reframed a UX problem as a behavioral economics problem — then the solution became obvious; provisional patent | 4 | — |
-| S004 | Earnings Health Framework | Vision + Proactive Leadership | Built a sensing system nobody asked for — saw the gap before leadership did and didn't wait for permission | 5 | — |
 | S005 | ECR Reliability Redesign | Technical Depth + Risk Sensing | 0.5–0.8% sounds small until you realize at Uber's scale that's hundreds of thousands of earners and one screenshot is a P1 | 4 | — |
 | S006 | Getting Dedicated DS Support | Influencing Without Authority | You can't win a resource argument with opinion — you need demonstrated past impact, a strategic roadmap, and a business moment that makes inaction costly | 4 | — |
 | S007 | WECR Guardrail Root Cause | Data-Driven Root Cause Analysis | The wrong hypothesis (surge) was about to become the product strategy — 1% of drivers = 50% of spend, driven by specialty products | 5 | — |
 | S008 | Engineering Pushback Navigation | PM-EM Disagreement + Escalation | When eng and product are at impasse, escalate with data not frustration — but only after genuinely trying to find a solution together | 4 | — |
 | S009 | ECR Incident + Alert Redesign | System Reliability + Incident Diagnosis | Stop pays aren't control — they're random, unfair, and treat the symptom; the fix was a tiered alert system that makes the team proactive, not reactive | 5 | — |
+| S010 | ECR Denominator Fix | Stakeholder Navigation + Business Case Structuring | Presenting structured options instead of a single POV isn't hedging — it's how you get a VP to make a confident first-review decision; you're facilitating, not lobbying | 4 | — |
 
 ### Story Details
 
-#### S001 — ECR Breakdown Redesign
-- Situation: ECR was one of Uber's most sensitive regulated surfaces. Drivers didn't trust the take rate breakdown and had misconceptions about customer promotions. Regulatory/screenshot risk was growing in priority markets.
-- Task: Re-architect the ECR breakdown UX to increase driver trust, remove misconceptions, and elevate visibility of negative ECR — while satisfying policy, legal, ops, and design simultaneously across global markets.
-- Action: Partnered with Regional Ops, Policy, Legal, Eng, and Design. Did deep stakeholder listening to understand each org's constraints. Invented the EPUH guardrail (instead of ECR guardrail) as a creative solution that balanced long-term vision, external narrative, business case, and competitor dynamics. Identified systemic failures in ECR taxonomy. Defined next-gen requirements with Eng to systematize classifications and automate accuracy validation.
-- Result: $30M+ in cost savings from taxonomy redesign. Reduced regulatory/screenshot risk in priority markets. Materials so clear that Mac (COO) and Sachin (CPO) were able to make a decision on the spot. Multiple reviewers cited this as her highest-signal body of work.
-- Earned Secret: The real skill was finding the single solution that satisfied 6 competing stakeholder worldviews — not the obvious solution, the one that actually worked.
-- Deploy for: Systems thinking, stakeholder management, regulated surfaces, navigating competing priorities, building trust with earners
-- Version history: 2026-02-24 — initial capture
+#### S001 — Global Earnings Health
+- Situation: At the start of 2025, regional driver leads raised concerns about Uber's "pricing for growth" strategy — a push to lower rider prices — with almost no equivalent framework on the driver earnings side. Driver earnings had declined for two years. Ops leaders could feel early signs of supply softening (acceptance rates dipping, session hours shifting) but couldn't get traction with senior leadership because earnings sentiment is hard to quantify.
+- Task: No formal mandate. Whitney identified the gap herself and built the program. The goal: shift the conversation from anecdotal concern to quantifiable, long-horizon marketplace risk — and get Product, Ops, Policy, and DS telling the same story.
+- Action: Led a three-part cross-functional program. (1) Built a Supply Warning Scorecard with Ops and Product — leading indicators of supply health (earnings benchmarks, YoY EPUH, acceptance rates) to enable proactive flagging instead of reactive firefighting. (2) Pushed for a rigorous causal research project: partnered with Marketplace DS and Policy DS to analyze 4 long-term marketplace experiments plus an economics paper quantifying how earnings cuts affect driver behavior over time. Findings: short-term metrics looked fine, but after 1–2 months every driver metric (retention, accept rate, session hours) degraded and did not return to baseline. First causal, long-horizon evidence ever tied to earnings changes. (3) Translated research into a unified product + ops roadmap with a single narrative: earnings is not a sentiment issue, it is a long-term supply risk that directly impacts marketplace efficiency. Packaged the full analysis and presented at the Monthly Supply Health Meeting to Mac (COO), Sachin (CPO), and ~60 leaders including RGMs and product leadership. Reframed the story from "driver happiness" to marketplace stability and efficiency risk.
+- Result: Structural, org-wide change across three dimensions. Ops: Supply Warning Scorecard became a monthly review artifact, evolved into a standing earnings health operating framework — pricing adjustments are now assessed against earnings health metrics before being recommended. Marketplace Product: leadership adjusted roadmap to ingest long-term supply elasticity into pricing models and account for WECR guardrail spend upstream. Earner side: ECR recognized as a critical supply health function (not a UI nicety); team grew from 0.5 eng → 3.5 eng + dedicated DS with Sachin's support.
+- Earned Secret: Ops had the right concern but the wrong currency. Sentiment doesn't move COOs. Marketplace efficiency risk does. The job was translating one into the other — and backing it with causal evidence, not just intuition.
+- Deploy for: Cross-functional leadership at scale, influencing senior leadership (COO/CPO), proactive problem identification, org-wide narrative change, proactive 0→1 program building
+- Version history: 2026-02-26 — initial capture; replaces original S001 (ECR Breakdown Redesign, retired); S004 (Earnings Health Framework) retired as superseded by this entry
 
 #### S002 — Driver Upfront Fares Launch
 - Situation: Uber needed to move to driver upfront fares. The stakes were enormous: $1.5B+ in potential legal and tax liabilities if done wrong.
@@ -80,14 +80,8 @@ Last updated: 2026-02-24
 - Deploy for: Creative problem solving, behavioral product design, large-scale rollouts, managing change resistance
 - Version history: 2026-02-24 — initial capture
 
-#### S004 — Earnings Health Framework
-- Situation: Uber had no systematic way to detect earnings health risk across markets. Issues surfaced as fires rather than being caught proactively.
-- Task: There was no formal task — she identified the gap herself and built the sensing system.
-- Action: Built Uber's first Earnings Health Framework from scratch across Pricing, Ops, and Product. Presented insights and recommendations to COO, CPO, and senior Marketplace leadership.
-- Result: Enabled early detection of supply risk and influenced pricing in 40+ cities.
-- Earned Secret: She built a system nobody asked for — saw the gap before leadership did and didn't wait for permission. This is what "bias for action" looks like at the strategic level.
-- Deploy for: Vision-setting, 0→1 product leadership, proactive gap identification, influencing senior leadership without being asked
-- Version history: 2026-02-24 — initial capture
+#### S004 — RETIRED
+- Retired: 2026-02-26. Story content absorbed and significantly expanded into S001 (Global Earnings Health). Do not use S004 — refer to S001 instead.
 
 #### S005 — ECR Reliability Redesign
 - Situation: Payout timing and architecture had failure modes affecting a small but significant percentage of global earners — creating regulatory and screenshot risk.
@@ -133,6 +127,15 @@ Last updated: 2026-02-24
 - Earned Secret: A system that wakes engineers at 2am and randomly cuts off driver payouts isn't a fail-safe — it's a liability dressed as one. The stop pays were treating the symptom and generating new problems at the same time. The real diagnosis wasn't "the thresholds are set wrong." It was "we're operating on weekly batch data and calling it real-time control."
 - Deploy for: System reliability, incident root cause diagnosis, proactive vs. reactive design, PM-EM partnership in technical problem-solving, infrastructure and platform judgment
 - Version history: 2026-02-24 — initial capture; 2026-02-24 — rewritten for narrative strength
+
+#### S010 — ECR Denominator Fix
+- Situation: ECR 1.0 had just launched — the first time drivers were seeing a detailed WECR breakdown. Global roundtables across U.S., LATAM, EMEA, and India surfaced a strikingly consistent misconception: drivers believed they were funding customer promotions out of their own earnings. They felt double-taxed. The root cause was technical: WECR was calculated using customer fare as the denominator, not customer payment — creating two line items that looked like driver subsidy of promotions.
+- Task: Fix the denominator to restore driver trust. The catch: switching to customer payment as the denominator would require approximately $21M more in annual WECR payouts to keep the guardrail intact. Ops is extremely sensitive to guardrail spend, and the initial read from Ops leadership was that this wouldn't pass budget.
+- Action: Socialized early with Liza (Ops leadership) to understand specific concerns before building the case. Then reframed the conversation around four arguments: (1) Driver trust at full scale — 93% of drivers see this line item weekly, not an edge case. (2) Global consistency — the same misconception surfaced in every region independently, confirming it was structural. (3) Long-term cost of distrust — misinformed drivers develop distorted incentives that degrade acceptance rates, supply stability, and pricing strategy, costs far larger than $21M. (4) Two structured decision paths — accept the $21M spend increase as an investment in driver trust, OR make the UX change and silently adjust the guardrail from 30% to 31% since no public commitment had been made. Presenting two paths reduced friction and positioned the presentation as facilitating a decision rather than lobbying for one.
+- Result: Camiel (VP) aligned on first review. Chose to keep the guardrail stable, make the UX change, and shift driver pricing budget to absorb the spend difference. Rationale: driver trust was an existential priority, and this was a root misunderstanding present across all markets simultaneously. A small surface change that required VP sign-off, cross-functional alignment across Ops, Pricing, and Earner leadership, and a $21M budget reallocation — landed cleanly on first presentation.
+- Earned Secret: Presenting structured options instead of a single POV isn't hedging — it's how you get a VP to make a confident decision on first review. You signal that you understand the tradeoffs fully and trust leadership to make the call with complete information.
+- Deploy for: Difficult tradeoffs, quantifying business cases, stakeholder navigation (Ops sensitivity), presenting options to leadership, turning a "no" into a first-review yes
+- Version history: 2026-02-26 — initial capture
 
 ## Score History
 ### Historical Summary
